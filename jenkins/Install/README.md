@@ -50,3 +50,16 @@ sudo systemctl stop jenkins     # to stop
 sudo systemctl start jenkins    # to start 
 sudo systemctl status jenkins   # to check the status
 ```
+#Shortcut to install jenkins
+    2  sudo apt update
+    3  sudo apt install default-jdk
+    4  java -version
+    5  sudo apt update
+    6  sudo apt install maven -y
+    7  mvn -version
+    8  sudo wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+    9  sudo echo deb https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
+   10  sudo apt update
+   11  sudo apt-get install jenkins
+   12  systemctl status jenkins
+   13  history
