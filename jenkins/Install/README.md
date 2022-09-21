@@ -50,7 +50,8 @@ sudo systemctl stop jenkins     # to stop
 sudo systemctl start jenkins    # to start 
 sudo systemctl status jenkins   # to check the status
 ```
-#Shortcut to install jenkins
+# Shortcut to install jenkins
+```
     2  sudo apt update
     3  sudo apt install default-jdk
     4  java -version
